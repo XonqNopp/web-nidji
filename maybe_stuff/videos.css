@@ -1,0 +1,175 @@
+@import url('cssvoyage.css');
+
+div.videoadmin
+{
+	position : absolute;
+	top : 13%;
+	left : 10%;
+	text-align : center;
+}
+
+div.videos
+{
+	position : absolute;
+	top : 17%;
+	left : 10%;
+	width : 80%;
+	right : 0px;
+	text-align : center;
+}
+
+table.videos
+{
+	padding : 0.2cm;
+}
+
+tr.videos
+{
+
+}
+
+td.videos
+{
+	padding : 0.5cm;
+}
+
+div.videosthumb
+{
+	padding-bottom : 0.3cm;
+}
+
+div.videostitle
+{
+
+}
+
+div.videovideo
+{
+	position : absolute;
+	top : 25%;
+	left : 23%;
+}
+
+object.video
+{
+
+}
+
+p.videolegend
+{
+	text-indent : 0.8cm;
+	text-align : justify;
+}
+
+p.videolegendNO
+{
+	text-align : left;
+	font-weight : 700;
+}
+
+div.videolegend
+{
+	position : absolute;
+	top : 34%;
+	left : 50%;
+}
+
+div.videodate
+{
+	font-size : 10pt;
+	padding-left : 0.2cm;
+}
+
+div.videoplace
+{
+	font-style : italic;
+	font-size : 10pt;
+	padding-left : 0.4cm;
+	padding-top : 0.1cm;
+	padding-bottom : 0.3cm;
+}
+
+div.videolegendbody
+{
+
+}
+
+div.vidcomtable
+{
+	position : absolute;
+	top : 70%;
+	left : 20%;
+	width : 60%;
+	padding-top : 1cm;
+}
+
+div.newvideoblock
+{
+	position : absolute;
+	top : 15%;
+	left : 9%;
+	width : 42%;
+}
+
+div.newvideodate
+{
+	padding : 0.2cm 0cm;
+}
+
+div.newvideotitle
+{
+	padding : 0.2cm 0cm;
+}
+
+div.newvideoplace
+{
+	padding : 0.2cm 0cm;
+}
+
+div.newvideotype
+{
+	padding : 0.2cm 0cm;
+}
+
+div.newvideodim
+{
+	padding : 0.2cm 0cm;
+	line-height : 150%;
+}
+
+div.newvideothumb
+{
+	padding : 0.2cm 0cm;
+	text-align : center;
+}
+
+div.newvideofilesfield
+{
+	padding : 0.2cm 0cm;
+	line-height : 250%;
+}
+
+div.newvideocomeback
+{
+	padding : 0.2cm 0cm;
+}
+
+div.newvideocomment
+{
+	position : absolute;
+	top : 14%;
+	left : 53%;
+}
+
+div.newvideobut
+{
+	padding : 0.2cm 0cm;
+	text-align : center;
+}
+
+div.newvideofac
+{
+	padding : 0.2cm 0cm;
+	line-height : 150%;
+}
+

@@ -1,0 +1,70 @@
+@import url("cssindex.css");
+
+body
+{
+	/*background-color : #ccccff;*/
+	background-color : #ffcc66;
+}
+
+div.headtxt
+{
+	color : #ffcc66;
+}
+
+div.contactsheader
+{
+	margin-left : 175px;
+	margin-right : 80px;
+}
+
+div.contactsheaderimg
+{
+	width : 100%;
+}
+
+div.contactsheaderimg img
+{
+	width : 100%;
+}
+
+div.contactsheadersub
+{
+	font-family : "Comic sans MS", fantasy;
+	font-size : 18pt;
+	font-weight : 100;
+	background-color : #000000;
+	color : #ffcc66;
+	padding : 2mm;
+	width : 100%;
+	position : relative;
+	top : -2mm;
+}
+
+div.contactsmain
+{
+}
+
+table.contacts
+{
+	margin : auto;
+	text-align : center;
+}
+
+table.contacts td
+{
+	padding : 2mm 1cm;
+}
+
+div.contactsname
+{
+	font-weight : 700;
+	font-size : 18pt;
+}
+
+div.contactsaddress
+{
+	text-align : left;
+	display : inline-block;
+	margin : 0mm auto;
+}
+

@@ -1,0 +1,29 @@
+body {
+	background-color: #ccff99;
+	/*background-color: #ffcc66;*/
+	/*background-color: #99ff33;*/
+}
+
+div.headtxt {
+	color: #ccff99;
+}
+
+div.activiteslinks {
+	text-align: center;
+	margin: auto;
+}
+
+div.activiteslink {
+	vertical-align: top;
+	margin: 0 1em;
+	border: solid 2px;
+}
+
+div.activitespressbook img,
+div.activitesagenda img {
+	width: 225px;
+}
+
+div.activitesgalerie img {
+	width: 100px;
+}

@@ -1,0 +1,48 @@
+body {
+	margin: 0;
+}
+
+div.map_body {
+	text-align : center;
+}
+
+object.gmap {
+	width : 100%;
+	height : 100%;
+	border : none;
+	overflow : hidden;
+}
+
+div.glegend {
+	margin-top : 10px;
+	margin-bottom : 20px;
+	font-size : 9pt;
+}
+
+a.glink {
+	color : #0000ff;
+	text-align : left;
+}
+
+div.mapweather {
+	margin-top : 40px;
+	margin-bottom : 70px;
+}
+
+
+
+@media only screen
+and (min-width:64em) {
+
+div.map_body {
+	margin-left : 175px;
+	margin-right : 80px;
+}
+
+div.gmap {
+	margin : 1cm 10%;
+	height : 500px;
+	width : 80%;
+}
+
+}

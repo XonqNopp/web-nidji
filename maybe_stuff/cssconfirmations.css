@@ -1,0 +1,129 @@
+div.filesnew
+{
+	position : absolute;
+	top : 10%;
+	left : 7%;
+}
+
+div.confirmtable
+{
+	position : absolute;
+	bottom : 0px;
+	height : 80%;
+	right : 0px;
+	width : 90%;
+	overflow : auto;
+}
+
+table.confirmtable
+{
+	height : 100%;
+	max-height : 100%;
+	width : 100%;
+	max-width : 100%;
+	/*margin : auto;*/
+}
+
+thead.confirm
+{
+	/*font-weight : 700;*/
+	/*text-align : center;*/
+}
+
+th.confirmhead
+{
+	padding : 0.1cm 0.3cm;
+	text-align : left;
+}
+
+tbody.confirm
+{
+	height : 90%;
+	overflow-x : hidden;
+	overflow-y : auto;
+}
+
+tr.confirm
+{
+
+}
+
+td.confirmlink
+{
+	text-align : right;
+	padding-right : 0.7cm;
+	padding-top : 0.25cm;
+	padding-bottom : 0.25cm;
+}
+
+td.confirmcheck
+{
+	text-align : center;
+	width : 1.7cm;
+	height : 1.7cm;
+	padding : 0.25cm 0.4cm;
+}
+
+td.confirm
+{
+	text-align : justify;
+	padding-left : 0.4cm;
+	padding-top : 0.25cm;
+	padding-bottom : 0.25cm;
+}
+
+td.OK
+{
+	color : #336600;
+	background-color : #99ff99;
+}
+
+td.Priority
+{
+	background-color : #ffcccc;
+	color : #ff0000;
+}
+
+div.newfiledate
+{
+	position : absolute;
+	top : 20%;
+	left : 8%;
+}
+
+div.newfilenames
+{
+	position : absolute;
+	top : 22%;
+	right : 8%;
+}
+
+div.newfilebut
+{
+	position : absolute;
+	top : 68%;
+	left : 10%;
+}
+
+div.newfilenamesdone
+{
+	position : absolute;
+	top : 12%;
+	left : 8%;
+}
+
+div.newfilenamestodo
+{
+	position : absolute;
+	top : 12%;
+	right : 8%;
+}
+
+div.newfilebutsplit
+{
+	position : absolute;
+	top : 78%;
+	left : 40%;
+}
+
+

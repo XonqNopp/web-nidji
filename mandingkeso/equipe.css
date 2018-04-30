@@ -1,0 +1,100 @@
+body {
+	margin: 0;
+}
+
+div.csstab64_table {
+	text-align: center;
+}
+
+div.csstab64_cell {
+	margin: auto;
+	padding: 1em 0.2em;
+}
+
+div.membreadd {
+	text-align : right;
+	margin-right : 20px;
+	margin-top : 20px;
+}
+
+div.membrename {
+	font-family : "Comic sans MS", fantasy;
+	font-weight : 700;
+}
+
+div.membrecontact {
+	font-family : "Times New Roman", serif;
+	font-size : 0.7em;
+	padding-top : 0.4em;
+}
+
+div.membrefunction {
+	font-style : italic;
+	padding-top : 0.4em;
+}
+
+div.warnmail {
+	text-align : center;
+	font-size : 11pt;
+	font-style : italic;
+	padding-top : 1cm;
+}
+
+div.membreadmin {
+	font-size : 10pt;
+	padding-top : 0.4cm;
+}
+
+div.editname {
+	position : absolute;
+	top : 20%;
+	left : 10%;
+}
+
+div.editcontact {
+	position : absolute;
+	top : 30%;
+	left : 12%;
+}
+
+div.editfunction {
+	position : absolute;
+	top : 40%;
+	left : 8%;
+}
+
+div.editpriority {
+	position : absolute;
+	top : 55%;
+	left : 10%;
+}
+
+table.editpriorexp {
+	font-size : 9pt;
+	text-align : center;
+	margin-top : 0.4cm;
+	margin-left : 1cm;
+}
+
+div.editcomment {
+	position : absolute;
+	top : 55%;
+	right : 7%;
+}
+
+div.editbut {
+	position : absolute;
+	bottom : 20%;
+	right : 50%;
+}
+
+
+@media only screen
+and (min-width:64em) {
+
+div.team_main {
+	margin-left : 175px;
+	margin-right : 80px;
+}
+
+}

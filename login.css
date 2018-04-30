@@ -1,0 +1,16 @@
+body {
+	background-color: #000000;
+	color: #ffffff;
+}
+
+h1 {
+	color: #ff3030;
+	font-size: 30pt;
+}
+
+.loginname,
+.loginpwd,
+.loginsubmit {
+	margin-left: 2em;
+	padding: 1em;
+}

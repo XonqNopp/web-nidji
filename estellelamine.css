@@ -1,0 +1,127 @@
+body {
+	/*background-color: #ccccff;*/
+	background-color: #ffcc66;
+}
+
+h1 {
+	text-align: center;
+	padding: 0.3cm;
+	font-family: "Comic sans MS", fantasy;
+	font-size: 36pt;
+	font-weight: 700;
+}
+
+div.contenutable {
+	text-align: center;
+	width: 100%;
+}
+
+div.eux {
+	text-align: right;
+}
+
+div.qui {
+	margin: 2em 0;
+}
+
+img.eux {
+	max-width: 100%;
+	/*max-height: 400px;*/
+}
+
+div.abstract {
+	color: #993300;
+	font-family: Futura;
+	font-size: 16pt;
+	font-weight: 300;
+}
+
+img.estelle {
+	max-height: 400px;
+}
+
+img.lamine {
+	max-height: 400px;
+}
+
+div.mCas {
+	text-align: center;
+	width: 100%;
+}
+
+table.mCas {
+	width: 100%;
+}
+
+tr.mCas {
+	/*width: 100%;*/
+}
+
+td.mCas {
+	text-align: center;
+	width: 50%;
+	max-width: 50%;
+}
+
+img.mCas {
+	width: 80%;
+	/*max-height: 400px;*/
+}
+
+div.mCH {
+	text-align: center;
+}
+
+img.mCH1 {
+	max-height: 600px;
+	width: 90%;
+}
+
+img.mCH2 {
+	width: 50%;
+	max-height: 400px;
+}
+
+p.bol {
+	font-weight: 700;
+}
+
+p.rgh {
+	text-align: right;
+	padding-bottom: 20px;
+}
+
+div.csstab64_cell {
+	margin: auto;
+	text-align: center;
+}
+
+div.csstab64_cell ul {
+	text-align: left;
+}
+
+
+@media only screen
+and (min-width:64em) {
+
+div.contenu {
+	margin-left: 3em;
+	margin-right: 3em;
+	padding: 0.3cm 0cm;
+}
+
+div.contenuleft {
+	width: 66%;
+	padding-right: 1em;
+}
+
+div.contenuright {
+	width: 30%;
+}
+
+div.eux {
+	width: 50%;
+	padding-right: 0.5cm;
+}
+
+}

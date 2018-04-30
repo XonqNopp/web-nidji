@@ -1,0 +1,225 @@
+body {
+	/*background-color : #990033;*/
+	background-color : #a91043;
+	/*background-color : #800043;*/
+}/* See also div.indexsubtitle */
+
+div.adm a {
+	color : #22ffff;
+}
+
+div.indexmain {
+	padding : 20px 0px;
+	width : 100%;
+	/*height : 25%;*/
+	text-align : center;
+	z-index : 2;
+}
+
+img.ix {
+	max-width : 100%;
+	max-height : 100%;
+}
+
+div.mklink {
+	margin : 0.4em 0;
+}
+
+div.mklink a {
+	color : #990000;
+	font-size : 13pt;
+	font-family : "Comic sans MS", fantasy;
+}
+
+div.mktitle {
+	text-align : center;
+	max-width : 100%;
+	min-height : 80px;
+	margin : 2mm 10%;
+	padding : 2mm;
+	border-style : solid;
+	border-width : 2pt;
+	background-color : #bbbbbb;
+}
+
+
+a.flashy, a.flashy:focus, a.flashy:hover, a.flashy:link, a.flashy:visited {
+	text-decoration : blink;
+	color : #ff0000;
+}
+
+#update, .update {
+	position : absolute;
+	top : 4px;
+	left : 55%;
+	font-size : 8pt;
+	text-align: center;
+	line-height: 125%;
+	color : #00bb00;
+}
+
+div.mktable {
+	vertical-align : text-top;
+	text-align: center;
+}
+
+div.mkh3 a {
+	font-family : "Comic sans MS", fantasy;
+	color : #ffffff;
+	text-align : center;
+	font-size : 16pt;
+	height : 10mm;
+	vertical-align : middle;
+}
+
+div.csstab64_table {
+	text-align: center;
+}
+
+div.mkimg {
+	text-align : center;
+	/*max-height : 6cm;*/
+	/*max-width : 30%;*/
+	/*margin : 3mm;*/
+	padding : 0mm 2mm;
+}
+
+div.mkimg img {
+	max-height : 100%;
+	width : 100%;
+	border : solid 2px #000000;
+}
+
+/*
+td.mktxt {
+	vertical-align : text-top;
+}
+*/
+
+td.mktxt {
+	border-style : solid;
+	border-width : 2px;
+	padding : 3mm 2mm;
+	text-align : justify;
+	background-color : #eeeeee;
+}
+
+div.mkleft {
+	text-align: center;
+}
+
+div.mkleftimg {
+	display : inline-block;
+	vertical-align : text-top;
+	margin : 0mm 2mm;
+}
+
+div.mkEL {
+	max-width : 60px;
+}
+
+div.mkprojet, div.mkcharte, div.mkequipe, div.mknews, div.mkguestbook {
+	max-width : 60px;
+}
+
+div.mkcontacts {
+	max-width : 60px;
+}
+
+div.mkguestbook {
+	max-width : 60px;
+}
+
+div.mkleftimg img {
+	max-width : 100%;
+	max-height : 100%;
+}
+
+div.mklinkbox {
+	background-color : #ffff99;
+	border-style : dotted;
+	border-width : 2px;
+	display : inline-block;
+	text-align : center;
+	vertical-align : text-top;
+	padding : 2mm 1mm;
+	min-width : 50%;
+}
+
+div.mklinkbox a {
+	color : #000000;
+	font-size : 13pt;
+}
+
+div.mklang {
+	z-index : 1;
+	font-size : 1pt;
+	float : right;
+}
+
+div.mklang img {
+	max-height : 50px;
+	max-width : 25px;
+}
+
+div.mkblackbanner {
+	position : absolute;
+	top : 0px;
+	left : 0px;
+	right : 0px;
+	height : 333px;
+	background-color : #000000;
+	padding-bottom : 5pt;
+}
+
+div.mksubtitle {
+	font-family : "Helvetica", sans-serif;
+	font-size : 18pt;
+	font-weight : 300;
+	color : #a91043;
+	margin : 0mm 1cm;
+}
+
+div.mkbody {
+	position : absolute;
+	bottom : 0px;
+	left : 100px;
+	right : 0px;
+	top : 333px;
+	padding-top : 12mm;
+}
+
+div.mkboth {
+	width : 100%;
+}
+
+
+@media only screen
+and (max-width:64em) {
+
+div.mkleft {
+	width: 95%;
+	margin: auto;
+}
+
+}
+
+@media only screen
+and (min-width:64em) {
+
+div.mkleft {
+	max-width : 30%;
+	display : inline-block;
+	vertical-align : text-top;
+	margin-top : 23mm;
+	margin-right : 3mm;
+}
+
+div.mktable {
+	display : inline-block;
+	max-width : 65%;
+	margin-bottom : 7px;
+	margin-right : 20px;
+}
+
+}

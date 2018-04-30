@@ -1,0 +1,79 @@
+div.csstab64_cell {
+	text-align: center;
+}
+
+div.contes {
+	text-align: center;
+}
+
+td.contes {
+	padding: 0.2cm 0.5cm;
+}
+
+div.contespic {
+	padding: 0.1cm;
+}
+
+div.contestitle {
+	text-align: center;
+	padding: 0.1cm;
+}
+
+h1.unconte {
+	color: #336600;
+}
+
+div.unconteadmin {
+	text-align: center;
+	line-height: 150%;
+}
+
+div.mainconte {
+	/*margin-top: 110px;*/
+	width: 100%;
+}
+
+table.unconte {
+	width: 100%;
+	/*border: solid;*/
+}
+
+tr.unconte {
+	width: 100%;
+}
+
+td.contepic {
+	height: 225px;
+	width: 22%;
+	vertical-align: top;
+}
+
+img.conte {
+	max-height: 100%;
+	width: 100%;
+	max-width: 300px;
+}
+
+td.unconte {
+	/*border: solid;*/
+	vertical-align: top;
+	/*text-align: justify;*/
+	padding: 0cm 1cm;
+	/*min-width: 60%;*/
+	/*max-width: 63%;*/
+}
+
+p.unconte {
+	text-align: justify;
+	text-indent: 0.8cm;
+	padding: 0.2cm 0cm;
+}
+
+div.contepicture {
+	text-align: center;
+}
+
+img.contepicid {
+	vertical-align: middle;
+}
+

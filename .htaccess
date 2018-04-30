@@ -1,0 +1,4 @@
+DirectoryIndex index.php
+## Errors: see http://webmaster.iu.edu/tool_guide_info/errorcodes.shtml
+## 404 Not found
+ErrorDocument 404 error_404.php

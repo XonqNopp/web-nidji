@@ -1,0 +1,135 @@
+/* copyright and admin */
+div#for_copyright {
+	font-size: 0.5em;
+}
+
+div.adm {
+	font-size: 0.5em;
+	text-align: center;
+}
+
+div.smalllang {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.languagefrench {
+	font-size: 0.7em;
+	z-index: 1;
+}
+
+@media print{
+	div.adm, div.language, div.cpy, div.cssw3c, div#cssw3c, div.xhtmlw3c, div.home, div.home2, div#home, div#home2 {
+		display: none;
+	}
+}
+
+div.adm a {
+	color: #990000;
+}
+
+div.adm img {
+	height: 50px;
+}
+
+/* TIMES NEW ROMAN */
+.tnr {
+	font-family: "Times New Roman", serif;
+	font-size: 12pt;
+}
+
+/* TEXT AREA */
+.area {
+	font-family: "Times New Roman", serif;
+	line-height: 120%;
+}
+
+/* COMMENTS */
+div.com {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #009900;
+	width: 100%;
+}
+
+div.comauthor {
+	text-align: left;
+	font-weight: 700;
+}
+
+div.comdate {
+	text-align: left;
+	font-style: italic;
+	font-size: 0.6em;
+}
+
+div.comcontent {
+	text-indent: 1.6em;
+	text-align: justify;
+}
+
+div.addcom {
+	text-align: center;
+	padding-top: 1.6em;
+	padding-bottom: 1em;
+}
+
+td.incom {
+	padding-right: 0.7cm;
+}
+
+/* NEW COMMENT */
+div.ncpic img {
+	max-height: 200px;
+	max-width: 200px;
+}
+
+div.orthocomment {
+	font-weight: 700;
+}
+
+div.admin a {
+	color: #009933;
+}
+
+div.imgheader img {
+	width: 100%;
+}
+
+div.headtxtarea {
+	width: 100%;
+	padding: 2mm 0;
+	background-color: #000000;
+	position: relative;
+	top: -2mm;
+}
+
+div.headtxt {
+	font-size: 18pt;
+	font-family: "Comic sans MS", fantasy;
+	padding: 0 3mm;
+}
+
+.half {
+	width: 49%;
+}
+
+.aside {
+	display: inline-block;
+}
+
+.center {
+	text-align: center;
+}
+
+.marquee span {
+	font-size: 1.5em;
+}
+
+.marquee a:hover {
+	color: #0000ff;
+}
+
+span a.agenda {
+	color: #0000ff;
+}

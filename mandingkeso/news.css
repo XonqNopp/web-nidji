@@ -1,0 +1,122 @@
+body {
+	margin: 0;
+}
+
+div.news {
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.newsdate {
+	font-size: 0.6em;
+}
+
+.newsplace {
+	font-style: italic;
+}
+
+.newsphoto {
+	text-align: center;
+	font-style: italic;
+}
+
+img.newspic {
+	/*height: 100px;*/
+}
+
+.newscomment {
+	text-indent: 1em;
+}
+
+/* ADD */
+#addnews {
+	text-align: right;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+
+div#adddate {
+	position: absolute;
+	top: 33%;
+	left: 13%;
+}
+
+div#addtime {
+	position: absolute;
+	top: 43%;
+	left: 17%;
+}
+
+div#addplace {
+	position: absolute;
+	top: 20%;
+	left: 4%;
+}
+
+#addphoto {
+	position: absolute;
+	top: 55%;
+	left: 10%;
+}
+
+div#addcomment {
+	position: absolute;
+	top: 15%;
+	left: 52%;
+}
+
+div#addnewcountry {
+	position: absolute;
+	top: 28%;
+	left: 39%;
+}
+
+div#addbuttons {
+	position: absolute;
+	top: 70%;
+	left: 15%;
+}
+
+/* WHERE */
+div#wherecountry {
+	position: absolute;
+	top: 20%;
+	left: 14%;
+}
+
+div#wheretable {
+	position: absolute;
+	top: 18%;
+	left: 27%;
+}
+
+div#wherefield {
+	position: absolute;
+	top: 20%;
+	left: 35%;
+}
+
+div#wherebut {
+	position: absolute;
+	top: 40%;
+	left: 20%;
+}
+
+
+@media only screen
+and (min-width:64em) {
+
+div.news_main {
+	margin-left: 13%;
+	margin-right: 7%;
+}
+
+.newsdate {
+	padding-left: 1cm;
+}
+
+.newsphoto {
+	padding: 0.5cm;
+}
+
+}

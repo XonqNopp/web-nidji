@@ -1,0 +1,310 @@
+body {
+	/*background-color : #ccccff;*/
+	background-color : #ffcc66;
+	margin: 0 1pt;
+}
+
+div.csstab64_cell {
+	text-align: center;
+}
+
+div.csstab64_cell ol {
+	text-align: left;
+}
+
+div#main_body {
+	margin-left : 80px;
+	margin-right : 80px;
+}
+
+div.headtxt {
+	color : #ffcc66;
+}
+
+div.dossierhead {
+	display : block;
+	width : 60%;
+	border : solid 2px #ffffff;
+	/*border-color : #ffffff;*/
+	background-color : #ff6600;
+	color : #ffffff;
+	font-family : "Comic sans MS", fantasy;
+	font-size : 14pt;
+	padding-left : 1cm;
+	padding-right : 3cm;
+	padding-bottom : 1cm;
+	padding-top : 0.4cm;
+	text-align : left;
+}
+
+div.dossierheader {
+	width : 100%;
+}
+
+div.dossiertitle {
+	width : 100%;
+	/*font-family : Helvetica, sans-serif;*/
+	/*font-size : 48pt;*/
+	text-align : center;
+	/*padding-top : 3cm;*/
+	margin-top : 6mm;
+}
+
+div.dossiertitle img {
+	width : 100%;
+}
+
+div.projettitlepdf {
+	font-size : 10pt;
+	text-align : center;
+	padding-top : 7mm;
+	padding-bottom : 3cm;
+}
+
+div.dossiersubtitle {
+	width : 100%;
+	font-family : "Comic sans MS", fantasy;
+	font-size : 20pt;
+	text-align : left;
+	background-color : #000000;
+	color : #ffcc66;
+	padding : 2mm;
+	padding-top : 0;
+	padding-right : 0;
+	z-index : 5;
+	position : relative;
+	top : -2mm;
+}
+
+div.contenutitle {
+	font-size : 15pt;
+	font-weight : 700;
+}
+
+div.dossiervillagedessin {
+	width : 70%;
+	height : 200px;
+	/*padding : 1.7cm 0cm;*/
+	text-align : center;
+	margin: auto;
+}
+
+div.dossiervillagedessin img {
+	max-height : 100%;
+	max-width : 100%;
+	/*padding : 1cm 0cm;*/
+}
+
+div.villagephoto {
+	text-align : center;
+}
+
+div.dossierobj {
+	text-align : justify;
+	padding : 0.5cm 0cm;
+}
+
+div.dossierabstract {
+	display : block;
+	border : solid 3px #ff6600;
+	/*border-color : #ff6600;*/
+	padding : 0.5cm;
+}
+
+div.dossierabstracttitle {
+	color : #ff6600;
+	font-weight : 700;
+	padding-bottom : 0.2cm;
+}
+
+div.dossierabstractbody {
+	text-indent : 0.8cm;
+	text-align : justify;
+	padding : 0.1cm 0cm;
+}
+
+div.dossierabstractbody2 {
+	text-indent : 0.8cm;
+	text-align : left;
+	padding : 0.1cm 0cm;
+	font-weight : 700;
+	font-size : 16pt;
+	line-height : 150%;
+}
+
+div.dossierabstractbody3 {
+	text-indent : 0.8cm;
+	text-align : justify;
+	/*padding : 0.1cm 0cm;*/
+	font-size : 16pt;
+	line-height : 150%;
+}
+
+h2.projet {
+	counter-increment : title2;
+	counter-reset : title3;
+	color : #660099;
+}
+
+h2.projet a {
+	color : #660099;
+}
+
+h2.projet:before {
+	content : counter( title2 ) " ";
+}
+
+h3.projet {
+	counter-increment : title3;
+}
+
+h3.projet:before {
+	content : counter( title2 ) "." counter( title3 ) " ";
+}
+
+p.projet {
+	text-indent : 0.8cm;
+}
+
+div.projetnotes {
+	font-size: 0.7em;
+}
+
+ul.projet {
+	line-height : 150%;
+}
+
+div.projettable {
+	/*text-align : center;*/
+}
+
+table.projet {
+	/*width : 70%;*/
+	/*margin-left : 15%;*/
+	/*margin-right : 15%;*/
+	margin-left : auto;
+	margin-right : auto;
+}
+
+th.projetleft, th.projetright {
+	text-align : center;
+	padding : 0.1cm 0.4cm;
+}
+
+div.projettabletiny {
+	font-size : 9pt;
+}
+
+td.projettableleft {
+	text-align : left;
+	padding : 0.1cm 0cm;
+}
+
+td.projettableright {
+	text-align : right;
+	padding : 0.1cm 0cm;
+}
+
+td.projettablelefttotal {
+	text-align : left;
+	font-weight : 700;
+	padding : 0.3cm 0cm;
+}
+
+td.projettablerighttotal {
+	text-align : right;
+	font-weight : 700;
+	padding : 0.3cm 0cm;
+}
+
+div.projetlastpic {
+	text-align: center;
+}
+
+div.projetlasttxt {
+	/*display : block;*/
+	background-color : #cc99ff;
+	padding : 0.2em 0.4em;
+	border-style : outset;
+	border-color : #ffffff #cc9933 #cc9933 #ffffff;
+	text-align: left;
+}
+
+a.footnote {
+	color : #000000;
+}
+
+div.projetapologize {
+	position : absolute;
+	top : 8%;
+	left : 8%;
+	color : #cc00ff;
+	font-weight : 700;
+	font-size : 14pt;
+}
+
+@media only screen
+and (min-width:64em) {
+
+div.contenu {
+	padding-top : 0.2cm;
+	padding-bottom : 1cm;
+	padding-left : 1cm;
+	padding-right : 5cm;
+}
+
+div.femmeriz {
+	width : 50%;
+	/*max-width : 550px;*/
+	/*border : solid 1px;*/
+	padding-top : 2cm;
+	padding-bottom : 1cm;
+	padding-right : 0.8cm;
+}
+
+div.femmeriz img {
+	max-height : 100%;
+	width : 100%;
+	max-width : 500px;
+}
+
+div.projetitineraireleft {
+	width : 50%;
+	/*text-align : justify;*/
+}
+
+div.projetitineraireright {
+	width : 40%;
+	padding-left : 1cm;
+}
+
+div.projetitineraireright img {
+	width : 100%;
+	max-width : 315px;
+	max-height : 100%;
+}
+
+div.projetlastpic {
+	/*position : absolute;*/
+	width : 10%;
+	max-width : 68px;
+	height : 180px;
+	padding : 12px 0.3cm;
+}
+
+div.projetlastpic img {
+	width : 68px;
+	max-width : 100%;
+	height : 156px;
+	max-height : 100%;
+}
+
+div.projetlasttxt {
+	margin-left : 30mm;
+}
+
+div.projetnotes {
+	padding : 0.7cm 2.3cm;
+}
+
+}

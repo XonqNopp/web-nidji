@@ -1,0 +1,175 @@
+body {
+	margin: 0;
+}
+
+div.agenda_body {
+	margin: auto;
+	/*background-color: #333333;*/
+	/*padding: 2mm 0;*/
+}
+
+div.agenda_title {
+	margin: 0;
+	padding: 2mm;
+	background-color: #000000;
+	min-height: 4em;
+}
+
+div.agenda_title a {
+	color: #ff0000;
+}
+
+h2 {
+	display: inline-block;
+	margin: 0;
+}
+
+div.agendaH2 {
+	/*min-height: 4em;*/
+	vertical-align: bottom;
+}
+
+h2.agenda_contes,
+div.agenda_infos_contes {
+	color: #ffcc33;
+}
+
+h2.agenda_conference,
+div.agenda_infos_conference {
+	color: #ff9999;
+}
+
+h2.agenda_temoignage,
+div.agenda_infos_temoignage {
+	color: #66ffff;
+}
+
+h2.agenda_diaporama,
+div.agenda_infos_diaporama {
+	color: #cc66ff;
+}
+
+h2.agenda_senegal,
+div.agenda_infos_senegal {
+	color: #99ff99;
+}
+
+h2.agenda_stand,
+div.agenda_infos_stand {
+	color: #ff9933;
+}
+
+h2.agenda_spectacle,
+div.agenda_infos_spectacle {
+	color: #ff99ff;
+}
+
+h3 {
+	margin-left: 2mm;
+	padding-top: 9mm;
+}
+
+div.agenda_entry {
+	/*width: 100%;*/
+	border-style: solid;
+	border-width: 2pt;
+	border-color: #000000;
+	/*padding: 0 2mm;*/
+	/*margin-top: 2mm;*/
+	margin-bottom: 2mm;
+	/*background-color: #ffffff;*/
+}
+
+div.agenda_infos {
+	display: inline-block;
+	font-style: italic;
+	font-size: 1.2em;
+	float: right;
+	text-align: right;
+}
+
+div.agenda_catpub {
+	font-style: italic;
+	font-size: 11pt;
+	margin: 2mm 6mm;
+}
+
+div.agenda_description {
+	text-align: justify;
+	margin: 2mm;
+}
+
+span.agenda_edit {
+	font-size: 8pt;
+}
+
+span.agenda_edit a {
+	color: #ff00ff;
+}
+
+div.agenda_contes {
+	background-color: #ffcc33;
+}
+
+div.agenda_conference {
+	background-color: #ff9999;
+}
+
+div.agenda_temoignage {
+	background-color: #66ffff;
+}
+
+div.agenda_diaporama {
+	background-color: #cc66ff;
+}
+
+div.agenda_senegal {
+	background-color: #99ff99;
+}
+
+div.agenda_stand {
+	background-color: #ff9933;
+}
+
+div.agenda_spectacle {
+	background-color: #ff99ff;
+}
+
+
+div.agenda_new_title {
+	margin: 2mm 0;
+}
+
+div.agenda_new_date {
+	margin: 2mm 0;
+}
+
+div.agenda_new_location {
+	margin: 2mm 0;
+}
+
+div.agenda_new_category {
+	margin: 2mm 0;
+}
+
+div.agenda_new_public {
+	margin: 2mm 0;
+}
+
+div.agenda_new_description {
+	margin: 2mm 0;
+}
+
+
+
+@media only screen
+and (min-width:64em) {
+
+div.agenda_main,
+div.agenda_new_main {
+	margin-left: 13%;
+	margin-right: 7%;
+}
+
+
+}

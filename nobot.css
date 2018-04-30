@@ -1,0 +1,69 @@
+div.nobotadmin {
+	position : absolute;
+	top : 18%;
+	left : 10%;
+}
+
+div.nobottable {
+	position : absolute;
+	bottom : 0px;
+	left : 0px;
+	right : 0px;
+	height : 70%;
+}
+
+table.nobot {
+	/*width : 100%;*/
+	margin : auto;
+}
+
+td.lang {
+	text-align : center;
+	font-size : 14pt;
+	font-weight : 700;
+	padding-top : 0.3cm;
+	padding-bottom : 0.2cm;
+	border-top: solid 1px;
+}
+
+td.edit {
+	text-align : right;
+	font-size : 10pt;
+	padding-bottom : 0.3cm;
+}
+
+td.quest {
+	padding-left : 1cm;
+	padding-bottom : 0.3cm;
+}
+
+div.nobotlang {
+	position : absolute;
+	top : 20%;
+	left : 10%;
+}
+
+div.nobotquest {
+	position : absolute;
+	top : 30%;
+	left : 13%;
+}
+
+div.nobotans {
+	position : absolute;
+	top : 50%;
+	left : 15%;
+}
+
+div.nobotconfirm {
+	position : absolute;
+	top : 60%;
+	left : 12%;
+}
+
+div.nobotbut {
+	position : absolute;
+	top : 80%;
+	left : 40%;
+}
+

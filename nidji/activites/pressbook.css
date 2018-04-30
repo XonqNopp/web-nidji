@@ -1,0 +1,85 @@
+/* This should be in common with fixed position */
+div.pressbook_entry {
+	margin: 3mm 0;
+}
+
+div.pressbook_half {
+	width: 45%;
+}
+
+div.pressbook_single {
+	width: 90%;
+	margin: auto;
+}
+
+div.pressbook_pic {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+}
+
+div.pressbook_pic img,
+div.pressbook_pic object,
+div.pressbook_pic embed {
+	max-height: 500px;
+	max-width: 100%;
+}
+
+div.pressbook_txt {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: justify;
+	padding: 2mm;
+	border-style: solid;
+	border-width: 1pt;
+}
+
+span.pressbook_edit {
+	font-size: 8pt;
+}
+
+span.pressbook_date {
+	font-size: 10pt;
+	font-style: italic;
+}
+
+
+div.pressbook_new_photo {
+	margin: 2mm;
+}
+
+div.pressbook_new_date {
+	margin: 2mm;
+}
+
+div.pressbook_new_text {
+	margin: 2mm;
+}
+
+
+div.pressbook_new_left embed {
+	width: 100%;
+}
+
+@media only screen
+and (min-width:64em) {
+
+div.pressbook_main,
+div.pressbook_new_main {
+	margin-left: 13%;
+	margin-right: 7%;
+}
+
+div.pressbook_new_left {
+	display: inline-block;
+	vertical-align: middle;
+	max-width: 48%;
+}
+
+div.pressbook_new_right {
+	display: inline-block;
+	vertical-align: middle;
+	max-width: 48%;
+}
+
+}

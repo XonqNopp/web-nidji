@@ -1,0 +1,70 @@
+@media only screen
+and (min-width:64em) {
+
+.wide {
+	width: 100%;
+}
+
+div#for_copyright {
+	display: inline-block;
+	width: 90%;
+	margin-bottom: 4em;
+	margin-left: -2em;
+}
+
+div#copyright {
+	width: 8em;
+	/*** Safari ***/
+	-webkit-transform: rotate(-90deg);
+	/*** Firefox ***/
+	-moz-transform: rotate(-90deg);
+	/*** IE ***/
+	-ms-transform: rotate(-90deg);
+	/*** Opera ***/
+	-o-transform: rotate(-90deg);
+}
+
+div.adm {
+	display: inline-block;
+	width: 9%;
+	vertical-align: bottom;
+}
+
+div.headbanner {
+	margin-left : 175px;
+	/*margin-left : 120px;*/
+	margin-right : 100px;
+}
+
+div.imgheader {
+	width : 100%;
+}
+
+div.comtable {
+	width : 60%;
+	padding-top : 2em;
+	padding-left : 18%;
+	padding-right : 18%;
+}
+
+div.com {
+	padding: 1.4em;
+}
+
+div.comauthor {
+	padding-left : 2em;
+}
+
+div.comdate {
+	padding : 0.4em 0.4em;
+}
+
+div.comcontent {
+	padding-top : 0.6em;
+}
+
+div.orthocomment {
+	max-width: 30%;
+}
+
+}

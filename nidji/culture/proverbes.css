@@ -1,0 +1,90 @@
+div.proverb {
+	text-align: center;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 25px;
+	-moz-border-radius: 25px;
+	padding: 1em;
+}
+
+span.proverb_edit {
+	font-size: 0.6em;
+}
+
+div.proverb_add {
+	font-size: 0.6em;
+	margin: auto;
+	text-align: right;
+}
+
+div.proverb_txt {
+}
+
+div.proverb_src {
+	text-align: right;
+	font-style: italic;
+	font-size: 0.6em;
+	margin-top: 0.4em;
+	margin-right: 1em;
+}
+
+div.proverb_new {
+	margin-left: 175px;
+	margin-right: 80px;
+	margin-bottom: 50px;
+}
+
+div.proverb_new_text {
+	display: inline-block;
+	vertical-align: text-top;
+}
+
+div.proverb_new_wolof {
+	margin: 8mm 0;
+}
+
+div.proverb_new_src {
+	margin-left: 8mm;
+	display: inline-block;
+	vertical-align: text-top;
+}
+
+div.proverb_new_source_wo {
+	margin: 8mm 0;
+}
+
+div.proverb_new_valbut {
+	/*text-align: center;*/
+	margin-top: 1cm;
+	margin-left: 4cm;
+}
+
+div.headtxt {
+	color: #ff6666;
+}
+
+
+
+@media only screen
+and (min-width:64em) {
+
+div.proverb {
+	width: 47%;
+	margin: 0.6em 0;
+}
+
+div.proverb_even {
+	margin-right: auto;
+}
+
+div.proverb_odd {
+	margin-left: auto;
+}
+
+div.proverb_add {
+	width: 80%;
+	margin-bottom: 1.4em;
+}
+
+
+}

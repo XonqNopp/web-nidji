@@ -1,0 +1,90 @@
+body {
+	background-color: #ff6666;
+	margin: 0;
+}
+
+div.headtxt {
+	color: #ff6666;
+}
+
+div.traditionheader {
+	text-align: center;
+}
+
+img.traditionheader {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+div.traditionsubtitle {
+	font-family: "Helvetica", sans-serif;
+	font-size: 14pt;
+	color: #ffffff;
+	background-color: #000000;
+	padding: 1mm;
+}
+
+div.maintradition {
+	margin-top: 3em;
+	text-align: center;
+}
+
+div.traditiontxt {
+	vertical-align: middle;
+}
+
+div.traditionlinks {
+	vertical-align: middle;
+	margin: auto;
+	margin-bottom: 0.4em;
+	margin-right: 0.6em;
+}
+
+div.traditionlink {
+	margin-top: 0;
+	margin: auto;
+}
+
+div.traditionlink img {
+	width: 200px;
+}
+
+div.traditionproverbes {
+}
+
+div.traditionrencontres {
+}
+
+div.traditioncontes {
+}
+
+div.traditiontxt {
+	border-style: solid;
+	border-width: 3px;
+	padding: 5mm 3mm;
+}
+
+
+@media only screen
+and (min-width:64em) {
+
+div.traditiontxt {
+	width: 33%;
+}
+
+div.traditionlinks {
+	width: 66%;
+}
+
+div.traditionrencontres {
+	width: 50%;
+	margin-right: 48%;
+}
+
+div.traditionproverbes,
+div.traditioncontes {
+	width: 50%;
+	margin-left: 48%;
+}
+
+}

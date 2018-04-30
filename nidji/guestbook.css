@@ -1,0 +1,124 @@
+body
+{
+	/*background-color: #ccccff;*/
+	background-color: #ffcc66;
+	margin: 0;
+}
+
+div.headtxt
+{
+	color: #ffcc66;
+}
+
+div.book_cell {
+	width: 95%;
+	margin: 1em 2%;
+}
+
+img.ange
+{
+	width: 90px;
+	max-height: 100%;
+	margin-left: 0.5cm;
+	vertical-align: middle;
+}
+
+div.oreille
+{
+	text-align: right;
+}
+
+img.oreille
+{
+	max-height: 100%;
+	margin-left: 0.5cm;
+	vertical-align: middle;
+}
+
+.guestauthor
+{
+	padding-left: 2cm;
+	font-weight: 700;
+	font-family: Helvetica, sans-serif;
+}
+
+.guestmail
+{
+	padding-left: 1cm;
+	padding-top: 0.1cm;
+	/*padding-bottom: 0.2cm;*/
+	font-size: 11pt;
+}
+
+.guestplace
+{
+	font-style: italic;
+	padding-top: 0.25cm;
+	font-size: 11pt;
+}
+
+.guestdate
+{
+	padding-top: 0.2cm;
+	padding-left: 0.3cm;
+	font-size: 9pt;
+}
+
+.guestcomment
+{
+	/*position: relative;*/
+	/*padding-top: 0.0cm;*/
+	text-align: justify;
+	text-indent: 1cm;
+}
+
+div.guestortho
+{
+	font-family: "Times New Roman", serif;
+	font-weight: 700;
+	text-align: justify;
+}
+
+div.insantitouristes
+{
+	line-height: 130%;
+	/*text-align: center;*/
+}
+
+div.newguestnick,
+div.newguestplace,
+div.newguestcomment,
+div.guestortho,
+div.newguestbuttons,
+div.insantitouristes {
+	margin: 1em 0;
+}
+
+
+@media only screen
+and (min-width: 64em) {
+
+#newguest, .newguest
+{
+	text-align: right;
+	margin-right: 3cm;
+	margin-top: 3mm;
+	margin-bottom: 3mm;
+}
+
+div.book
+{
+	width: 100%;
+	padding-bottom: 1cm;
+}
+
+div.book_cell {
+	padding: 1em 2em;
+}
+
+div.guestcontent {
+	width: 80%;
+	margin: auto;
+}
+
+}
