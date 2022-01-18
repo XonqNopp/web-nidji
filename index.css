@@ -19,7 +19,7 @@ div.adm a {
 div.indexlink a {
 	color: #990000;
 	font-size: 0.75em;
-	font-family: "Comic sans MS", fantasy;
+	font-family: "Comic sans MS";
 }
 
 div.indexblackbanner {
@@ -46,9 +46,8 @@ div.indextitle {
 	text-align: center;
 	max-width: 100%;
 	font-size: 2.25em;
-	font-family: "Comic sans MS", fantasy;
+	font-family: "Comic sans MS";
 	color: #ffff99;
-	/*font-family: fantasy;*/
 }
 
 img.indexel { /* ??? */
@@ -84,7 +83,7 @@ div.indextable a {
 
 div.indexh3 {
 	font-size: 1.15em;
-	font-family: "Comic sans MS", fantasy;
+	font-family: "Comic sans MS";
 	color: #ffffff;
 	text-align: center;
 	vertical-align: middle;

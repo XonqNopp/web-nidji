@@ -38,7 +38,7 @@ div.indexlink {
 div.indexlink a {
 	color: #990000;
 	font-size: 1.1em;
-	font-family: "Comic sans MS", fantasy;
+	font-family: "Comic sans MS";
 }
 
 div.indextitle {
@@ -48,9 +48,8 @@ div.indextitle {
 	background-color: inherit;
 	padding-bottom: 1mm;
 	font-size: 36pt;
-	font-family: "Comic sans MS", fantasy;
+	font-family: "Comic sans MS";
 	color: #ffff99;
-	/*font-family: fantasy;*/
 }
 
 a.flashy, a.flashy:focus, a.flashy:hover, a.flashy:link, a.flashy:visited {

@@ -28,7 +28,7 @@ div.dossierhead {
 	/*border-color : #ffffff;*/
 	background-color : #ff6600;
 	color : #ffffff;
-	font-family : "Comic sans MS", fantasy;
+	font-family : "Comic sans MS";
 	font-size : 14pt;
 	padding-left : 1cm;
 	padding-right : 3cm;
@@ -63,7 +63,7 @@ div.projettitlepdf {
 
 div.dossiersubtitle {
 	width : 100%;
-	font-family : "Comic sans MS", fantasy;
+	font-family : "Comic sans MS";
 	font-size : 20pt;
 	text-align : left;
 	background-color : #000000;

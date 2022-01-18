@@ -28,7 +28,7 @@ div.mklink {
 div.mklink a {
 	color : #990000;
 	font-size : 13pt;
-	font-family : "Comic sans MS", fantasy;
+	font-family : "Comic sans MS";
 }
 
 div.mktitle {
@@ -64,7 +64,7 @@ div.mktable {
 }
 
 div.mkh3 a {
-	font-family : "Comic sans MS", fantasy;
+	font-family : "Comic sans MS";
 	color : #ffffff;
 	text-align : center;
 	font-size : 16pt;
