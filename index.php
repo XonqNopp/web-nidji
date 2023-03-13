@@ -1,16 +1,10 @@
 <?php
-/*** Created: Tue 2014-08-12 12:21:32 CEST
- ***
- *** TODO:
- ***
- ***/
 require("functions/classPage.php");
 $funcpath = "functions";
-require("${funcpath}_local/copyright.php");
-require("${funcpath}_local/update.php");
+require("{$funcpath}_local/copyright.php");
+require("{$funcpath}_local/update.php");
 $page = new PhPage();
 //$page->logLevelUp(6);
-$page->check_www();
 
 $args = new stdClass();
 $args->redirect = "";
@@ -54,7 +48,7 @@ if($page->CheckSessionLang($page->GetWolof())) {
 }
 
 $page->SetTitle("Nidji souffle mandingue");
-	/*** HTML headers ***/
+	// HTML headers
 	$keywords = "Nidji, souffle, souffle mandingue, Nidji souffle mandingue, Estelle, Karlen, Lamine, Kont&eacute;, Konte, Manding, K&eacute;so, Keso, Suisse, Valais, Bramois, Sion, S&eacute;n&eacute;gal, Senegal, K&eacute;ra Kunda, Kera Kunda, Kerakunda, wolof, mandingue, mandinka, empire, Afrique, Gael, Ga&euml;l, Induni, Gael Induni, Ga&euml;l Induni";
 	$description = "Nidji - souffle mandingue: l'association pour faire fructifier Manding Keso, le voyage d&#039;Estelle et Lamine dans l&#039;ancien Grand Empire Mandingue pour recolter la tradition orale avant qu&#039;elle ne soit perdue.";
 	$page->SetKeywords($keywords);
@@ -64,9 +58,9 @@ $body = "";
 $page->HotBooty();
 
 
-	/*** Black banner ***/
+	// Black banner
 	$body .= "<div class=\"indexblackbanner\">\n";
-		/*** MAIN PICTURE ***/
+		// MAIN PICTURE
 		$body .= "<div class=\"indexmain\">";
 		//$body .= "<img class=\"ix\" alt=\"$title\" title=\"$title\" src=\"pictures/welcome_banner.png\" />";
 		$body .= "<img class=\"ix1\" alt=\"$title\" title=\"$title\" src=\"pictures/welcome_banner1.png\" />";
@@ -75,25 +69,25 @@ $page->HotBooty();
 		$body .= "<img class=\"ix4\" alt=\"$title\" title=\"$title\" src=\"pictures/welcome_banner4.png\" />";
 		$body .= "</div>\n";
 	//
-		/* SUBTITLE */
+		// SUBTITLE
 		$body .= "<div class=\"indexsubtitle\">";
 		$body .= "$subtitle\n";
 		$body .= "</div>\n";
 	//
-		/* TITLE */
+		// TITLE
 		$body .= "<div class=\"indextitle\">";
 		$body .= $title;
 		$body .= "</div>\n";
 	$body .= "</div>\n";
 $body .= "<div class=\"indexbody\">\n";
-/*** language ***/
+// language
 $body .= $page->Languages();
 //
 $body .= "<div class=\"wide\">\n";
 //// last update
 $body .= update($page);
 //
-	/* Left links */
+	// Left links
 	$body .= "<div class=\"indexleft\">\n";
 		// Estelle et Lamine
 		$body .= "<div class=\"indexlink\">\n";
