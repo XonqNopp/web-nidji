@@ -1,12 +1,9 @@
 <?php
 /*** Created: Tue 2014-09-23 07:56:19 CEST
- ***
- *** TODO:
- ***
  ***/
 require("functions/classPage.php");
 $funcpath = "functions";
-require("${funcpath}_local/copyright.php");
+require("{$funcpath}_local/copyright.php");
 $page = new PhPage();
 
 $loginOK = new stdClass();

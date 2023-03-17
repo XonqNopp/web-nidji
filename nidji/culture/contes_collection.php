@@ -1,14 +1,11 @@
 <?php
 /*** Created: Tue 2014-09-30 14:07:26 CEST
- ***
- *** TODO:
- ***
  ***/
 require("../../functions/classPage.php");
 $rootPath = "../..";
 $funcpath = "$rootPath/functions";
-require("${funcpath}_local/copyright.php");
-require("${funcpath}_local/findlang.php");
+require("{$funcpath}_local/copyright.php");
+require("{$funcpath}_local/findlang.php");
 $page = new PhPage($rootPath);
 //$page->LogLevelUp(6);
 $page->initDB();

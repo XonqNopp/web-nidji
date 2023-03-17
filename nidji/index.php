@@ -1,15 +1,13 @@
 <?php
 /*** Created: Thu 2014-09-18 16:17:37 CEST
- ***
- *** TODO:
- * admin link
+ * TODO: admin link
  ***
  ***/
 require("../functions/classPage.php");
 $rootPath = "..";
 $funcpath = "$rootPath/functions";
-require("${funcpath}_local/copyright.php");
-require("${funcpath}_local/update.php");
+require("{$funcpath}_local/copyright.php");
+require("{$funcpath}_local/update.php");
 $page = new PhPage($rootPath);
 //$page->LogLevelUp(6);
 $page->initDB();

@@ -1,13 +1,10 @@
 <?php
 /*** Created: Thu 2014-09-18 16:37:30 CEST
- ***
- *** TODO:
- ***
  ***/
 require("../functions/classPage.php");
 $rootPath = "..";
 $funcpath = "$rootPath/functions";
-require("${funcpath}_local/copyright.php");
+require("{$funcpath}_local/copyright.php");
 $page = new PhPage($rootPath);
 //$page->LogLevelUp(6);
 
@@ -119,9 +116,9 @@ $body .= "<div class=\"wide\">\n";
 		/*** Membreship ***/
 		$body .= "<h2 id=\"moneymoney\">$membreship</h2>\n";
 		$body .= "<div><ul>\n";
-		$body .= "<li>$active_display$from ${CHF}20.- $peryear $WLHFMF</li>\n";
-		$body .= "<li>$support_display$from ${CHF}40.- $peryear<br/>\n";
-		$body .= "($dwarfs&nbsp;: ${CHF}20.- $peryear)</li>\n";
+		$body .= "<li>$active_display$from {$CHF}20.- $peryear $WLHFMF</li>\n";
+		$body .= "<li>$support_display$from {$CHF}40.- $peryear<br/>\n";
+		$body .= "($dwarfs&nbsp;: {$CHF}20.- $peryear)</li>\n";
 		$body .= "</ul></div>\n";
 	//
 		/*** Gifts ***/

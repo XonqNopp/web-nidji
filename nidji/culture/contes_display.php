@@ -1,16 +1,13 @@
 <?php
 /*** Created: Wed 2014-10-01 11:51:53 CEST
- ***
- *** TODO:
- * add previous and next
- ***
+ * TODO: add previous and next
  ***/
 require("../../functions/classPage.php");
 $rootPath = "../..";
 $funcpath = "$rootPath/functions";
-require("${funcpath}_local/copyright.php");
-require("${funcpath}_local/GetComments.php");
-require("${funcpath}_local/findlang.php");
+require("{$funcpath}_local/copyright.php");
+require("{$funcpath}_local/GetComments.php");
+require("{$funcpath}_local/findlang.php");
 $page = new PhPage($rootPath);
 //$page->LogLevelUp(6);
 

@@ -1,13 +1,11 @@
 <?php
 /*** Created: Sat 2014-09-27 11:59:14 CEST
- * TODO:
- *
  */
 require("../../functions/classPage.php");
 $rootPath = "../..";
 $funcpath = "$rootPath/functions";
-require("${funcpath}_local/copyright.php");
-require("${funcpath}_local/agendacatpub.php");
+require("{$funcpath}_local/copyright.php");
+require("{$funcpath}_local/agendacatpub.php");
 $page = new PhPage($rootPath);
 //$page->LogLevelUp(6);
 $na = new stdClass();
