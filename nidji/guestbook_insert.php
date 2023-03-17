@@ -1,14 +1,11 @@
 <?php
 /*** Created: Sat 2014-09-27 09:17:24 CEST
- ***
- *** TODO:
- ***
  ***/
 require("../functions/classPage.php");
 $rootPath = "..";
 $funcpath = "$rootPath/functions";
-require("${funcpath}_local/copyright.php");
-require("${funcpath}_local/sobonana.php");
+require("{$funcpath}_local/copyright.php");
+require("{$funcpath}_local/sobonana.php");
 $page = new PhPage($rootPath);
 //$page->LogLevelUp(6);
 

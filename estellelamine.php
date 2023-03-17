@@ -1,12 +1,9 @@
 <?php
 /*** Created: Wed 2014-09-17 20:49:42 CEST
- ***
- *** TODO:
- ***
  ***/
 require("functions/classPage.php");
 $funcpath = "functions";
-require("${funcpath}_local/copyright.php");
+require("{$funcpath}_local/copyright.php");
 $page = new PhPage();
 //$page->LogLevelUp(6);
 
@@ -137,7 +134,7 @@ $page->HotBooty();
 	$body .= "</div>\n";
 	$body .= "</div>\n";
 	$body .= "</div>\n";
-	$body .= "<p class=\"el bol\">&laquo;&nbsp;${proverbe}&nbsp;&raquo;</p>\n";
+	$body .= "<p class=\"el bol\">&laquo;&nbsp;{$proverbe}&nbsp;&raquo;</p>\n";
 	$body .= "<p class=\"el rgh\">$legende</p>\n";
 //
 

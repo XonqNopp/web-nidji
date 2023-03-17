@@ -1,15 +1,12 @@
 <?php
 /*** Created: Sun 2014-09-21 15:15:39 CEST
- ***
- *** TODO:
- ***
  ***/
 require("../functions/classPage.php");
 $rootPath = "..";
 $funcpath = "$rootPath/functions";
-require("${funcpath}_local/copyright.php");
-require("${funcpath}_local/GetComments.php");
-require("${funcpath}_local/findlang.php");
+require("{$funcpath}_local/copyright.php");
+require("{$funcpath}_local/GetComments.php");
+require("{$funcpath}_local/findlang.php");
 
 if(!isset($_GET["id"])) {
 	header("Location: photos_albums.php");

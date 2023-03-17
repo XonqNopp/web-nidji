@@ -1,15 +1,12 @@
 <?php
 /*** Created: Tue 2014-09-30 17:15:27 CEST
- ***
- *** TODO:
- * Add previous and next in gohome
- ***
+ * TODO: Add previous and next in gohome
  ***/
 require("../../functions/classPage.php");
 $rootPath = "../..";
 $funcpath = "$rootPath/functions";
-require("${funcpath}_local/copyright.php");
-require("${funcpath}_local/findlang.php");
+require("{$funcpath}_local/copyright.php");
+require("{$funcpath}_local/findlang.php");
 $page = new PhPage($rootPath);
 //$page->LogLevelUp(6);
 $page->initDB();
