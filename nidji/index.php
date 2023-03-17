@@ -64,7 +64,7 @@ if($page->CheckSessionLang($page->GetWolof())) {
 }
 
 /*** pics ***/
-$charlie = "../pictures/language/manding.png";
+$charlie = "../pictures/languages/mandinka.png";
 
 $guest_pic = $charlie;
 $invoice_pic = $charlie;
@@ -109,26 +109,26 @@ $body .= "<div class=\"wide\">\n";
 	$body .= "<div class=\"indexleft\">\n";// style=\"width:30%; display: inline-block;\">\n";
 		/*** guestbook ***/
 		$body .= "<div class=\"indexlink\">\n";
-		$body .= "<div class=\"indexleftimg\"><a href=\"guestbook.php\" title=\"$guestbook\"><img class=\"indexleft\" src=\"$charlie\" alt=\"$guestbook\" title=\"$guestbook\" /></a></div>\n";
+		$body .= "<div class=\"indexleftimg\"><a href=\"guestbook.php\" title=\"$guestbook\"><img class=\"indexleft\" src=\"$guest_pic\" alt=\"$guestbook\" title=\"$guestbook\" /></a></div>\n";
 		$body .= "<div class=\"indexlinkbox\"><a class=\"indexleft\" href=\"guestbook.php\" title=\"$guestbook\">$guestbook</a></div>\n";
 		$body .= "</div>\n";
 	//
 		/*** invoices ***/
 		$body .= "<div class=\"indexlink\">\n";
 		$body .= "<div class=\"indexlinkbox\"><a class=\"indexleft\" href=\"membres.php#moneymoney\" title=\"$invoices\">$invoices</a></div>\n";
-		$body .= "<div class=\"indexleftimg\"><a href=\"membres.php#moneymoney\" title=\"$invoices\"><img class=\"indexleft\" src=\"$charlie\" alt=\"$invoices\" title=\"$invoices\" /></a></div>\n";
+		$body .= "<div class=\"indexleftimg\"><a href=\"membres.php#moneymoney\" title=\"$invoices\"><img class=\"indexleft\" src=\"$invoice_pic\" alt=\"$invoices\" title=\"$invoices\" /></a></div>\n";
 		$body .= "</div>\n";
 	//
 		/*** gifts ***/
 		$body .= "<div class=\"indexlink\">\n";
-		$body .= "<div class=\"indexleftimg\"><a href=\"membres.php#bank\" title=\"$gifts\"><img class=\"indexleft\" src=\"$charlie\" alt=\"$gifts\" title=\"$gifts\" /></a></div>\n";
+		$body .= "<div class=\"indexleftimg\"><a href=\"membres.php#bank\" title=\"$gifts\"><img class=\"indexleft\" src=\"$gifts_pic\" alt=\"$gifts\" title=\"$gifts\" /></a></div>\n";
 		$body .= "<div class=\"indexlinkbox\"><a class=\"indexleft\" href=\"membres.php#bank\" title=\"$gifts\">$gifts</a></div>\n";
 		$body .= "</div>\n";
 	//
 		/*** contact ***/
 		$body .= "<div class=\"indexlink\">\n";
 		$body .= "<div class=\"indexlinkbox\"><a class=\"indexleft\" href=\"membres.php#mail\" title=\"$contact\">$contact</a></div>\n";
-		$body .= "<div class=\"indexleftimg\"><a href=\"membres.php#mail\" title=\"$contact\"><img class=\"indexleft\" src=\"$charlie\" alt=\"$contact\" title=\"$contact\" /></a></div>\n";
+		$body .= "<div class=\"indexleftimg\"><a href=\"membres.php#mail\" title=\"$contact\"><img class=\"indexleft\" src=\"$contact_pic\" alt=\"$contact\" title=\"$contact\" /></a></div>\n";
 		$body .= "</div>\n";
 	$body .= "</div>\n";
 //
