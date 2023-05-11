@@ -1,13 +1,10 @@
 <?php
 /*** Created: Tue 2014-09-23 13:13:44 CEST
- ***
- *** TODO:
- ***
  ***/
 require("functions/classPage.php");
 $funcpath = "functions";
-require("${funcpath}_local/copyright.php");
-require("${funcpath}_local/sobonana.php");
+require("{$funcpath}_local/copyright.php");
+require("{$funcpath}_local/sobonana.php");
 $page = new PhPage();
 
 //$page->initHTML();

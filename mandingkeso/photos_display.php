@@ -1,15 +1,12 @@
 <?php
 /*** Created: Mon 2014-09-22 12:36:05 CEST
- ***
- *** TODO:
- ***
  ***/
 require("../functions/classPage.php");
 $rootPath = "..";
 $funcpath = "$rootPath/functions";
-require("${funcpath}_local/copyright.php");
-require("${funcpath}_local/findlang.php");
-require("${funcpath}_local/GetComments.php");
+require("{$funcpath}_local/copyright.php");
+require("{$funcpath}_local/findlang.php");
+require("{$funcpath}_local/GetComments.php");
 
 if(!isset($_GET["id"])) {
 	header("Location: photos_albums.php");
@@ -141,7 +138,7 @@ $body .= "</div>\n";
 $body .= "<div class=\"csstab64_cell dispimgright\">\n";
 /* date and time */
 $body .= "<div class=\"disptime\">\n";
-$body .= "${hour}h$minute, le $day $month $year\n";
+$body .= "{$hour}h$minute, le $day $month $year\n";
 $body .= "</div>\n";
 /* place */
 if($place != "") {

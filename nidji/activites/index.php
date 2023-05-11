@@ -1,12 +1,10 @@
 <?php
 /*** Created: Sat 2014-09-27 10:47:39 CEST
- * TODO:
- *
  */
 require("../../functions/classPage.php");
 $rootPath = "../..";
 $funcpath = "$rootPath/functions";
-require("${funcpath}_local/copyright.php");
+require("{$funcpath}_local/copyright.php");
 $page = new PhPage($rootPath);
 //$page->LogLevelUp(6);
 
