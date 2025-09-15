@@ -1,6 +1,5 @@
 <?php
-/*** Created: Sun 2014-09-21 12:52:43 CEST
- ***/
+/*** Created: Sun 2014-09-21 12:52:43 CEST ***/
 require("../functions/classPage.php");
 $rootPath = "..";
 $funcpath = "$rootPath/functions";
@@ -22,14 +21,7 @@ if($page->CheckSessionLang($page->GetWolof())) {
 	$weather = "M&eacute;t&eacute;o";
 }
 
-$msa = "0";
-$msid = "113978371120270303627.0004635cb6b13e37900e5";
-$ll = "11.856599,-12.678223";
-$spn = "6.984619,11.008301";
-$z = "7";
-$url = "http://maps.google.com/maps/ms?ie=UTF8&amp;hl=fr&amp;t=h&amp;source=embed&amp;msa=$msa&amp;msid=$msid&amp;ll=$ll&amp;spn=$spn&amp;output=embed";
-//$goto = "http://maps.google.com/maps/ms?ie=UTF8&amp;hl=fr&amp;t=h&amp;source=embed&amp;msa=$msa&amp;msid=$msid&amp;ll=$ll&amp;spn=$spn";
-$weatherLink = "http://www.wunderground.com/wundermap/?lat=12.31854&amp;lon=-7.33887&amp;zoom=6&amp;type=mixte&amp;units=metric&amp;rad=1&amp;rad.num=1&amp;rad.spd=25&amp;rad.opa=70&amp;rad.stm=0&amp;rad.type=N0R&amp;rad.smo=1&amp;rad.mrg=0&amp;wxsn=1&amp;wxsn.mode=tw&amp;svr=0&amp;cams=0&amp;sat=0&amp;riv=0&amp;mm=0&amp;hur=0&amp;fire=0&amp;tor=0&amp;ndfd=0";
+$gmapsFrame = '<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1VRO-wa5dWmwKDelrQMtFywhcyc0&ehbc=2E312F" width="640" height="480"></iframe>';
 
 $page->SetTitle($page_title);
 $page->CSS_ppJump();
@@ -44,7 +36,6 @@ $body .= $page->GoHome($args);
 $body .= $page->Languages();
 
 
-
 $body .= "<div class=\"headbanner\">\n";
 $body .= "<div class=\"imgheader\">\n";
 $body .= "<img src=\"../pictures/divers/voyageHeader.png\" alt=\"$page_title\" title=\"$page_title\" />\n";
@@ -57,17 +48,8 @@ $body .= "</div>\n";
 $body .= "</div>\n";
 // Main body
 $body .= "<div class=\"map_body\">\n";
-$body .= "<div class=\"glegend\">\n";
-$body .= "<a title=\"$weather\" href=\"$weatherLink\">$weather</a>\n";
+$body .= "<div class=\"gmap\">\n$gmapsFrame\n</div>\n";
 $body .= "</div>\n";
-$body .= "<div class=\"gmap\">\n";
-$body .= "<object class=\"gmap\" data=\"$url\" type=\"text/html\" />\n";
-$body .= "</div>\n";
-//$body .= "<div class=\"mapweather\">\n";
-//$body .= "<a title=\"$weather\" href=\"$weatherLink\">$weather</a>\n";
-//$body .= "</div>\n";
-$body .= "</div>\n";
-
 
 
 $body .= "<div class=\"wide\">\n";
